@@ -121,16 +121,16 @@ function showMovies() {
     //genre feild from airtable 
     //look through the array
 
-    // var moviesGenre = movies.fields.genre;
-    // moviesGenre.forEach(function(genre){
-    //     movieContainer.classList.add(genre);
-
-    // })
+    var moviesGenre = movies.fields.genre;
+    moviesGenre.forEach(function(genre){
+    genreElement.innerText = genre;
+    moviesContainer.appendChild(movieGenre);
+     moviesContainer.classList.add(genre);
 
     //add event listener to our filter 
     //to add an active class to our song
 
-    var filterAction = document.querySelector('.action');
+    var filterAction = document.querySelector('#action');
     filterAction.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("action")){
@@ -140,7 +140,7 @@ function showMovies() {
       }
      });
 
-    var filterAdventure = document.querySelector('.adventure');
+    var filterAdventure = document.querySelector('#adventure');
     filterAdventure.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("adventure")){
@@ -150,7 +150,7 @@ function showMovies() {
       }
      });
 
-    var filterAnimation = document.querySelector('.animation');
+    var filterAnimation = document.querySelector('#animation');
     filterAnimation.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("animation")){
@@ -160,7 +160,7 @@ function showMovies() {
       }
      });
 
-    var filterBiography = document.querySelector('.biography');
+    var filterBiography = document.querySelector('#biography');
     filterBiography.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("biography")){
@@ -170,7 +170,7 @@ function showMovies() {
       }
      });
 
-    var filterCrime = document.querySelector('.crime');
+    var filterCrime = document.querySelector('#crime');
     filterCrime.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("crime")){
@@ -180,7 +180,7 @@ function showMovies() {
       }
      });
 
-    var filterDrama = document.querySelector('.drama');
+    var filterDrama = document.querySelector('#drama');
     filterDrama.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("drama")){
@@ -190,7 +190,7 @@ function showMovies() {
       }
      });
 
-    var filterFamily = document.querySelector('.family');
+    var filterFamily = document.querySelector('#family');
     filterFamily.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("family")){
@@ -200,7 +200,7 @@ function showMovies() {
       }
      });
 
-      var filterFantasy = document.querySelector('.fantasy');
+      var filterFantasy = document.querySelector('#fantasy');
     filterFantasy.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("fantasy")){
@@ -210,7 +210,7 @@ function showMovies() {
       }
      });
 
-     var filterHistory = document.querySelector('.history');
+     var filterHistory = document.querySelector('#history');
     filterHistory.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("history")){
@@ -220,7 +220,7 @@ function showMovies() {
       }
      });    
 
-     var filterHorror = document.querySelector('.horror');
+     var filterHorror = document.querySelector('#horror');
     filterHorror.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("horror")){
@@ -230,7 +230,7 @@ function showMovies() {
       }
      });   
 
-     var filterMusic = document.querySelector('.music');
+     var filterMusic = document.querySelector('#music');
     filterMusic.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("music")){
@@ -240,7 +240,7 @@ function showMovies() {
       }
      });
 
-    var filterMystery = document.querySelector('.mystery');
+    var filterMystery = document.querySelector('#mystery');
     filterMystery.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("mystery")){
@@ -250,7 +250,7 @@ function showMovies() {
       }
      });
 
-    var filterRomance = document.querySelector('.romance');
+    var filterRomance = document.querySelector('#romance');
     filterRomance.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("romance")){
@@ -261,7 +261,7 @@ function showMovies() {
      });
 
 
-    var filterScifi = document.querySelector('.scifi');
+    var filterScifi = document.querySelector('#scifi');
     filterScifi.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("scifi")){
@@ -271,7 +271,7 @@ function showMovies() {
       }
      });
     
-    var filterThriller = document.querySelector('.thriller');
+    var filterThriller = document.querySelector('#thriller');
     filterThriller.addEventListener("click", function(){
 
         if (movieContainer.classList.conatains("mystery")){
