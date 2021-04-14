@@ -21,7 +21,7 @@ img {
 h1 {
 	text-align:center;
 	padding-top:15%;
-	font-size: 650%;
+	font-size: 100px;
 	color:black;
 	line-height: 90%;
 	font-family: urbane-rounded,sans-serif;
@@ -37,7 +37,7 @@ h2 {
 	font-weight: 400;
 	font-style: normal;
 	/*padding-bottom:10px;*/
-	font-size:22px;
+	font-size:20px;
 	/*padding-left:10px;*/
 }
 
