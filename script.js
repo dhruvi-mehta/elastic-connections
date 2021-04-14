@@ -121,11 +121,12 @@ function showMovies() {
     //genre feild from airtable 
     //look through the array
 
-    var moviesGenre = movies.fields.genre;
-    moviesGenre.forEach(function(genre){
-    genreElement.innerText = genre;
-    moviesContainer.appendChild(movieGenre);
-     moviesContainer.classList.add(genre);
+    // let movieGenre = movie.fields.genre;
+    
+    // movieGenre.forEach(function(genre){
+    // genreElement.innerText = genre;
+    // moviesContainer.appendChild(movieGenre);
+    //  moviesContainer.classList.add(genre);
 
     //add event listener to our filter 
     //to add an active class to our song
